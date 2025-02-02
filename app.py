@@ -7,6 +7,9 @@ import tempfile
 import os
 import matplotlib.pyplot as plt
 
+# Disable GPU usage
+tf.config.set_visible_devices([], 'GPU')
+
 # Load trained model
 model = tf.keras.models.load_model("movileV3_89.keras")
 

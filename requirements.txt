@@ -1,8 +1,8 @@
-streamlit
 tensorflow
-numpy
-pillow
+streamlit
 opencv-python-headless
-opencv-python
+pillow
+numpy
 matplotlib
+
 
